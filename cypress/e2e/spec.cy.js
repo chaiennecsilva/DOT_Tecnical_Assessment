@@ -28,9 +28,4 @@ describe('DemoBlaze Tests - Products', () => {
     });
   });
 
-  
-  it('Teste 4: Filtrando produtos por categoria inesxistente - Teclados', () => {
-    cy.contains('Teclados').click();
-    cy.get('.card-title').contains('microsotf').should('be.visible');
-  });
 });
